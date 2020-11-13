@@ -8,7 +8,7 @@ export default function App() {
       <div>
         <Switch>
           <Route exact path="/vpgudd" component={Vpgudd} />
-          <Route exact path="/vpgudd/:id" component={VpguddId} />
+          <Route exact path="/vpgudd/:added_params" component={VpguddId} />
           <Route exact path="/" component={Main} />
         </Switch>
       </div>
